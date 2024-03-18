@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: title;
+    src: url(./assets/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(./assets/Montserrat-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --max-w: 800px;
+    --pdd: 10px;
+}
+
+@media (min-width: 640px) {
+    :root {
+        --pdd: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --pdd: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --pdd: 4rem;
+    }
+}

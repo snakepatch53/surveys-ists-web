@@ -1,0 +1,8 @@
+[
+    { "value": "1", "label": "Unida/o" },
+    { "value": "2", "label": "Separada/o" },
+    { "value": "3", "label": "Divorciada/o" },
+    { "value": "4", "label": "Viuda/o" },
+    { "value": "5", "label": "Casada/o" },
+    { "value": "6", "label": "Soltera/o" }
+]
